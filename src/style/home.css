@@ -1,0 +1,91 @@
+/* Navbar */
+.navbar {
+    background-color: #333;
+    color: white;
+    height: 60px; /* Adjust the height as needed */
+    padding: 0 20px; /* Add padding as needed */
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Align items to the start and end */
+  }
+  
+  .navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.nav-items a {
+  color: white;
+  margin-left: 20px; /* Add spacing between items */
+  text-decoration: none;
+}
+
+  /* Main Content */
+  .main_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .column {
+    flex: 1;
+  }
+
+  .column img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .description {
+    padding: 20px 20px 20px 0;
+    /* border: 1px solid #ccc; */
+  }
+  .description p {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: white;
+    height: 80px; /* Adjust the height as needed */
+    padding: 10px 0; /* Add padding as needed */
+    text-align: center;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+  }
+  .custom-button {
+  display: block;
+  border: 1px solid black;
+  background-color: white;
+  margin: 0 auto; /* Center align the button */
+  padding: 10px 20px; /* Padding */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Cursor style */
+  margin-top: 20px;
+  
+}
+
+.custom-button:hover {
+  background-color:#2f92fc; /* Darker background color on hover */
+  color: white;
+}
+.description h2{
+    margin-bottom: 20px;
+}
